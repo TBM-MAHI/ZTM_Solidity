@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payMeBackLess",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "setNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/Solidity_Basics_1.sol": "myContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/Solidity_Basics_1.sol": {
+			"keccak256": "0x781736bf02813a318dcd6c4c153c3ac573ac2b17db06a89a1a398dbb2ca18b7a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55c7fa3f7d82d5c3b3ec14dfedaec1fb27e19e245e7dfc9cb74f0c12fe0c37b4",
+				"dweb:/ipfs/QmZCKjL2Q5WaSUS5YcwfqPeLqLRbVW65uhzWQyYdTuxpye"
+			]
+		}
+	},
+	"version": 1
+}
