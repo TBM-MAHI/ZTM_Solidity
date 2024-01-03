@@ -40,9 +40,9 @@ contract ERC20 {
         require(msg.sender==owner,"Invalid Owner");
         _;
         /* this underscore determines that the code before this unserscore will be
-            executed before the function execution is done.
+            executed before the function {the function using this modifier} execution is done.
             Other hand, the codes after this unserscore will be
-            executed after function execution is done
+            executed after function {the function using this modifier} execution is done
           */
     }
     

@@ -16,7 +16,7 @@ contract Inheritance_Exercise is ERC20 {
 
     function transfer_child(address to, uint256 value) external returns (bool) {
         _transfer(msg.sender, to, value);
-        return super._transfer(msg.sender, to, feeAmount + remaingAmount);
+        return true;
     }
 
     function _transfer(
@@ -31,11 +31,12 @@ contract Inheritance_Exercise is ERC20 {
             balanceOf[from] > amount + feeAmount,
             "ERC20: INSUFFCIENT SENDER BALANCE"
         );
-
+        //give the 1% fee
         balanceOf[address(this)] += feeAmount;
         balanceOf[from] = balanceOf[from] - amount - feeAmount;
-
-        balanceOf[recipient] = balanceOf[recipient] + amount;
+        
+        //return back the remaining 99% to the recipient
+        balanceOf[recipient] = balanceOf[recipient] + remaingAmount;
         emit Transfer(from, recipient, amount);
         return true;
     }

@@ -364,7 +364,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/ERC20Token.sol": "ERC20"
+			"Contracts/ERC20Token_flattened.sol": "ERC20"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -378,20 +378,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/ERC20Token.sol": {
-			"keccak256": "0xb4d55a11fd26cf5d2f3bad9d51cba43f311fe42e098ff69492226ae78201c4e4",
+		"Contracts/ERC20Token_flattened.sol": {
+			"keccak256": "0x36612e72d3b0fee86d33283bf742a918a7c33b1eb1355518bfdcfac49f9118ab",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7f62f5c24289f081c916c962e4251d9f092a7e4dda805d9d27fe60ac6cf5ff6f",
-				"dweb:/ipfs/Qmay3rayDY2EEaVxQdDsMSNvsi4QyQFxR7mPBkjUfsVaBW"
-			]
-		},
-		"hardhat/console.sol": {
-			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
-				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
+				"bzz-raw://65aa4a91c28e80496431f07220e8eb457221e0a9b79ee83e95f8a5b142d14509",
+				"dweb:/ipfs/Qma4Tfq8pFN7LqFecz4VGL7LQcRV3TETi7tadZtB2Vt3d6"
 			]
 		}
 	},
