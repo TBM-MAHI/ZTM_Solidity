@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/checked_Unchecked_Arithmatic.sol": "C"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/checked_Unchecked_Arithmatic.sol": {
+			"keccak256": "0x0e7bbd65d6919a69c21ec395166f573498f5ffd43a6104955fffca567301fde2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60eebe8177e88a222ecbe9c2b8c19ee51408642054acc2116eb4d7d85301520c",
+				"dweb:/ipfs/QmSkVPh5cAp93XeKohZnHG1btaXYZg2Y5f9FETrzuLjjiZ"
+			]
+		}
+	},
+	"version": 1
+}

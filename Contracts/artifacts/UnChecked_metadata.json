@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "unCheckedAdd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/checked_Unchecked_Arithmatic.sol": "UnChecked"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/checked_Unchecked_Arithmatic.sol": {
+			"keccak256": "0x70007f716381949bd92bbe75858ae07c08b61faf27d8abcfab71d37b14e43c34",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b3c5723302b3976d08d84201139bba76d98ffa2cd168c2abd9cb6247f7a4bc3",
+				"dweb:/ipfs/QmcyjbVwq5AcRpVw4t8b2QM2xS73fNCvE9bAhHFCMbkLDp"
+			]
+		}
+	},
+	"version": 1
+}
