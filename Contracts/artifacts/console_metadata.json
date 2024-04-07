@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/ERC20Token_flattened.sol": "console"
+			"Contracts/Exercise_1.sol": "console"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/ERC20Token_flattened.sol": {
-			"keccak256": "0x36612e72d3b0fee86d33283bf742a918a7c33b1eb1355518bfdcfac49f9118ab",
+		"Contracts/Exercise_1.sol": {
+			"keccak256": "0x7c1fdb04b3b6cd03e17ce4eb8907a7796b35ff9944542b251269087f5047c840",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://65aa4a91c28e80496431f07220e8eb457221e0a9b79ee83e95f8a5b142d14509",
-				"dweb:/ipfs/Qma4Tfq8pFN7LqFecz4VGL7LQcRV3TETi7tadZtB2Vt3d6"
+				"bzz-raw://9fb8b79cba942caa5a8702cdf4ef0c9c4f7d5ec0bf2c726f4e640d80680c2587",
+				"dweb:/ipfs/QmZBjph1ReoZrEj31WuvyzB9R1sgNxCroi9KbkcWv77i4J"
 			]
 		}
 	},
