@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/FixedPoint.sol": "Fixedpoint"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/FixedPoint.sol": {
+			"keccak256": "0x1aa5e9befe4cf74283339c3f9c5d94056c274ec95b2d1e2d602705d9db265fe1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://66a3cc35f8c9f9eacb3a15c3fc5a935cc5a73d4c7e80feb3739668ed3d0d4dc2",
+				"dweb:/ipfs/QmVRKbdVcnGfz9rEyJ5Bo7tTvYY5g7GfeBHz4xwqYZTYRX"
+			]
+		}
+	},
+	"version": 1
+}

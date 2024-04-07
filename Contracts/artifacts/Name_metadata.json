@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/Inheritance_1.sol": "Name"
+			"Contracts/FixedPoint.sol": "Name"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/Inheritance_1.sol": {
-			"keccak256": "0x789b8ed67b77b5774520ebcc5d25bf1d88b6f3b2a881bdb20bd8147f525d7ecd",
+		"Contracts/FixedPoint.sol": {
+			"keccak256": "0x94fa08eec3ff050a63d481c5ec5d02e2cfc8340a1455f0df725f0b8fe7765297",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://560affdb7ba044cbec868f819eaf109b0ca680ea61fd65aa530fbb31b2dc816a",
-				"dweb:/ipfs/QmRU5gkZYKcopsL1YDj6TQPzwWN2oLwLfkKEHQ1XwY6Uwx"
+				"bzz-raw://b854067b8ebdff7188350448f4941e532099819c60a768f16e93cd4c84fcfba9",
+				"dweb:/ipfs/Qmc93uu78CizEnnpDFiohFuSek5myTRohdvJjcshm1mjUH"
 			]
 		}
 	},
