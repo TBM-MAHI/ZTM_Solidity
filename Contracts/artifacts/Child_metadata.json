@@ -9,12 +9,14 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "s",
+						"name": "a",
 						"type": "string"
 					}
 				],
+				"name": "setMyString",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -41,6 +43,32 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uint_father",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uint_mother",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -56,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/Abstract.sol": "Child"
+			"Contracts/polymorphism.sol": "Child"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -70,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Contracts/Abstract.sol": {
-			"keccak256": "0x49435c0add035881687c5ff369fde248e9d152647ca72cffbcf190c6bc16ba8a",
+		"Contracts/polymorphism.sol": {
+			"keccak256": "0x85c520458f58b7c88e6e85b7e512ba5031322cbf97f9048228a2e34f735e869c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d4dced9c44afd24cb9fb0387529588fee78a3659ef0a1aadfc1833ad15987a7c",
-				"dweb:/ipfs/QmfVJ7YdL4CHR77MG9uZfRVZ4kd6E4Dq2K7KGL3xaaiRnM"
+				"bzz-raw://69076c43d68094a9c347462234cabaae7790196835a7823f8ca1bfcd256c301a",
+				"dweb:/ipfs/Qmd2oAHqYrgHirvdp1LGt1cRLEeaANDcBsZn2powa6nkt5"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Contracts/FixedPoint.sol": "Name"
+			"Contracts/FixedPoint.sol": "Fixedp"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Contracts/FixedPoint.sol": {
-			"keccak256": "0x94fa08eec3ff050a63d481c5ec5d02e2cfc8340a1455f0df725f0b8fe7765297",
+			"keccak256": "0x2e8dec813561301eece6c82d3deac9515846f834026b1ae49a5c25f6d20f657c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b854067b8ebdff7188350448f4941e532099819c60a768f16e93cd4c84fcfba9",
-				"dweb:/ipfs/Qmc93uu78CizEnnpDFiohFuSek5myTRohdvJjcshm1mjUH"
+				"bzz-raw://8410adc15c194fb135dded00a0d9286131cc04667618046edd57e58684826d6e",
+				"dweb:/ipfs/QmdWjKVyNStxwAUvuLBz7uRdBhJ3nN8zRmt47LtkJiH4Nd"
 			]
 		}
 	},

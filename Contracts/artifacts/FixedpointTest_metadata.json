@@ -1,0 +1,142 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "FixedPoint",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "addFixedPointNumers",
+				"outputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "FixedPoint",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "divideFixedPointNumers",
+				"outputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "FixedPoint",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplyFixedPointNumers",
+				"outputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "FixedPoint",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "subFixedPointNumers",
+				"outputs": [
+					{
+						"internalType": "FixedPoint",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/FixedPoint.sol": "FixedpointTest"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/FixedPoint.sol": {
+			"keccak256": "0x694493846f050836c92ea44fbbab33f70a464a973bea96abbac3fef8afb27d21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ca65f13a46f2284b3fec54a7dce0cc56d6e7b13030507e1eb1ccbd53bfe79bff",
+				"dweb:/ipfs/QmZxtueLk3wn8kWSNYKpa1zLSFYEFJias8U4m2YebXudwB"
+			]
+		}
+	},
+	"version": 1
+}
